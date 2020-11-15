@@ -211,7 +211,7 @@ a:hover{
   text-decoration: underline;
 }
 .logoImg{
-  position: static;
+  position: absolute;
   top: -65px;
   left: 80px;    
 }
