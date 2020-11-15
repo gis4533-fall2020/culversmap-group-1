@@ -91,6 +91,7 @@ body{
 #header{
   margin:0;
   overflow: hidden;
+  background-color: #005696;
 }
 #headerText{
   padding-top:10px;
@@ -114,6 +115,7 @@ body{
   overflow: hidden;
   text-overflow:ellipsis;
   -o-text-overflow:ellipsis;
+  visibility: hidden;
 }
 .esriRTL #title{
   text-align: right;
@@ -131,6 +133,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, form {
   font-weight: 400;
   overflow-x: hidden;
   overflow-y: auto !important;
+  visibility: hidden;
 }
 #subtitle b, strong {
   font-family: 'open_sanssemibold', sans-serif;
@@ -166,6 +169,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, form {
   margin-right:8px;
   color: inherit !important;
   font-weight: 400;
+  visibility: hidden;
 }
 .esriRTL .logoContainer{
   float:left;
@@ -192,11 +196,9 @@ a:hover{
   text-decoration: underline;
 }
 .logoImg{
-  max-width: 300px;
-  max-height: inherit;
   position: fixed;
-  top: 0px;
-  left: 50px;    
+  top: -65px;
+  left: 80px;    
 }
 img{
   border:none;
