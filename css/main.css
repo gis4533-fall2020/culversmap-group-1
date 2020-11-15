@@ -348,7 +348,8 @@ img{
   padding:0;
 }
 .calcite .esriPopup .actionsPane .actionList a {
-    color:#6e6e6e;
+    color:#005696;
+    background: #005696;
     padding:10px 8px;
 }
 .calcite .esriPopup .actionsPane .actionList a:hover {
