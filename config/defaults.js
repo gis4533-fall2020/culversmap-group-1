@@ -42,7 +42,6 @@ define({
   "showLogo": true,
   "logoLink": "https://www.esri.com",
   "logo": "./images/esrilogo.png",
-  "logoImg": "https://www.culvers.com/logo.png"
   "showSocialIcons": true,
   "showSocialText": true,
   "socialLink": "https://storymaps.arcgis.com",
