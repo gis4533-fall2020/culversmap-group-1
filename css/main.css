@@ -343,14 +343,13 @@ img{
 }
 .calcite .esriPopup .header{
   font-size: 12px;
+  background: #005696;
 }
 .calcite .esriPopup a{
-  padding:0;
+  padding: 0;
 }
 .calcite .esriPopup .actionsPane .actionList a {
-    color:#005696;
-    background: #005696;
-    padding:10px 8px;
+  padding:10px 8px;
 }
 .calcite .esriPopup .actionsPane .actionList a:hover {
   color:#323232;
