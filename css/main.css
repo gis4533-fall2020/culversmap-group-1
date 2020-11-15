@@ -4,6 +4,7 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  background-color: #005696;
 }
 body{
   font-size: 14px;
@@ -91,7 +92,7 @@ body{
 #header{
   margin:0;
   overflow: hidden;
-  background: #005696;
+  background-color: #005696;
 }
 #headerText{
   padding-top:10px;
