@@ -37,7 +37,18 @@
   <div id="mainWindow" dojotype="dijit/layout/BorderContainer" data-dojo-props="design:'headline',gutters:false" style="height:100%;width:100%;">
     <!-- Header Section-->
     <div id="header" class="bg fg" aria-hidden="true" dojotype="dijit/layout/ContentPane" data-dojo-props="region:'top'">
+      <div id="headerText">
+        <h1 id="title"></h1>
+        <h2 id="subtitle" class="ac"></h2>
+      </div>
       <div class="socialArea">
+        <div class="linkSocialContainer">
+          <span id="linkContainer" class="ac linkContainer" </span> <span class="shareBtns">
+            <i id="facebook" class="ac shareIcon blackHover share_facebook icon-facebook" tabindex="-1"></i>
+            <i id="twitter" class="ac shareIcon blackHover share_twitter icon-twitter" tabindex="-1"></i>
+            <i id="link" class="ac shareIcon blackHover share_bitly icon-link" tabindex="-1"></i>
+          </span>
+        </div>
         <table class="logoContainer">
           <tr>
             <td class="logoWrapper">
