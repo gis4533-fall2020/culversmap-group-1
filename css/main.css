@@ -92,48 +92,15 @@ body{
   margin:0;
   overflow: hidden;
 }
-#headerText{
-  padding-top:10px;
-  padding-left:16px;
-  width:70%;
-  float:left;
-}
 .esriRTL #headerText{
   float:right;
   padding-right:25px;
-}
-#title{
-  font-family: "open_sanssemibold", sans-serif;
-  height:45px;
-  padding-left:4px;
-  padding-top:3px;
-  font-size: 24px;
-  font-weight: 400;
-  text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow:ellipsis;
-  -o-text-overflow:ellipsis;
 }
 .esriRTL #title{
   text-align: right;
 }
 html, body, h1, h2, h3, h4, h5, h6, p, ul, form {
     margin: 0;
-}
-#subtitle{
-  font-family: "open_sansregular",sans-serif;
-  padding-left:4px;
-  line-height: 18px;
-  word-wrap:break-word;
-  height:54px;
-  font-size: 13px;
-  font-weight: 400;
-  overflow-x: hidden;
-  overflow-y: auto !important;
-}
-#subtitle b, strong {
-  font-family: 'open_sanssemibold', sans-serif;
 }
 @media (max-width: 600px){
   .socialArea{
