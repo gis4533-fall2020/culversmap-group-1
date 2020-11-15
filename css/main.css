@@ -88,6 +88,20 @@ body{
   border-top:solid 1px #efefef;
 }
 /*Header styles (title, logo, subtitle, social links)*/
+<<<<<<< Updated upstream
+=======
+#headerCulvers{
+  margin:0;
+  overflow: hidden;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  width: 1410px;
+  height: 95px;
+  color: rgb(255, 255, 255);
+  background-color: #005696;
+}
+>>>>>>> Stashed changes
 #header{
   margin:0;
   overflow: hidden;
