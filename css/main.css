@@ -192,8 +192,11 @@ a:hover{
   text-decoration: underline;
 }
 .logoImg{
-  max-width: 250px;
-  max-height: 50px;
+  max-width: 300px;
+  max-height: inherit;
+  position: fixed;
+  top: 0px;
+  left: 50px;    
 }
 img{
   border:none;
