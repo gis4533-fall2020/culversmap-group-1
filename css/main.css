@@ -94,9 +94,9 @@ body{
 }
 #headerText{
   padding-top:10px;
-  padding-left:16px;
+  padding-right:10px;
   width:70%;
-  float:left;
+  float:right;
 }
 .esriRTL #headerText{
   float:right;
