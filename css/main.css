@@ -88,7 +88,10 @@ body{
   border-top:solid 1px #efefef;
 }
 /*Header styles (title, logo, subtitle, social links)*/
+
 #headerCulvers{
+  margin:0;
+  overflow: hidden;
   left: 0px;
   top: 0px;
   position: fixed;
@@ -97,6 +100,7 @@ body{
   color: rgb(255, 255, 255);
   background-color: #005696;
 }
+
 #header{
   margin:0;
   overflow: hidden;
