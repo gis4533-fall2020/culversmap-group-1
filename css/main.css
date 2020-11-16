@@ -91,6 +91,7 @@ body{
 
 #headerCulvers{
   margin-top: 15px;
+  margin-right: 20px;
   overflow: hidden;
   left: 0px;
   top: -15px;
@@ -99,6 +100,9 @@ body{
   height: 145px;
   color: rgb(255, 255, 255);
   background-color: #005696;
+  font-family: Roboto,sans-serif;
+  display: inline-block; 
+  padding-left: 12px;
 }
 #header{
   width: 100%;
