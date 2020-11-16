@@ -358,19 +358,28 @@ img{
   left: 0;
   text-align: center;
 }
-.calcite .esriPopup .header{
+.esriPopup .header{
   font-size: 12px;
-  background: #005696;
+  background-color: #005696;
+  color: white;
 }
-.calcite .esriPopup a{
+.sizer { 
+  background-color: #005696;
+  color: white;
+} 
+.esriPopup a{
   padding: 0;
 }
-.calcite .esriPopup .actionsPane .actionList a {
+.esriPopup .actionsPane .actionList a {
   padding:10px 8px;
+  background-color: #005696;
+  color: white;
 }
-.calcite .esriPopup .actionsPane .actionList a:hover {
-  color:#323232;
+.esriPopup .actionsPane .actionList a:hover {
+  color: yellow;
 }
-.calcite .esriPopup .titlePane .title{
-  font-size: 12px;
+.esriPopup .title .titlePane * {
+ font-size: 12px;
+  background-color: #005696;
+  color: white;
 }
